@@ -1,0 +1,33 @@
+@charset "utf-8";
+.title{
+    color:blue;
+    text-shadow: 2px 2px yellow;
+    text-align: center;
+}
+fieldset{
+background-color: cyan;
+border-radius: 5px;
+border: thin solid #ccc
+
+}
+
+legend{
+    background-color: red;
+    color: white;
+}
+
+input[type=text],[type=number]{
+    background-color: yellow;
+    border: thin solid thistle;
+    border-radius: 5px;
+}
+
+/* preguntar tipo de letra, preguntar tipo de cursor del range */
+
+.boton{
+    width: 90px;
+    background-color: pink;
+    border-radius: 5px;
+    border: thin solid #ccc;
+
+}
