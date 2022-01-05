@@ -16,7 +16,6 @@ function doSubmit(form) {
     if(!provinciaRegex.test(provincia.value)){
         mostrarAlerta ('La provincia no tiene el formato correcto','red')
         return false
-       
     }
     
     if (provincia.value.toLowerCase()!=ciudadCodigoPostal.toLowerCase()){
@@ -24,11 +23,10 @@ function doSubmit(form) {
 
     }else{
         mostrarAlerta('La provincia coincide con el código postal','green')
-       
     }
 
  return false
-    //este return false de modo normal no lo pondría pero es para que una vez "enviemos" el formulario no desaparezca y se pueda ver claramente que sale el mensaje de "la provincia coincide con el cp"
+ //este return false de modo normal no lo pondría pero es para que una vez "enviemos" el formulario no desaparezca y se pueda ver claramente que sale el mensaje de "la provincia coincide con el cp"
 }
 
 
